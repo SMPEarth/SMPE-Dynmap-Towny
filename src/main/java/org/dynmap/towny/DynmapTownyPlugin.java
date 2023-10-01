@@ -834,8 +834,8 @@ public class DynmapTownyPlugin extends JavaPlugin {
 
                     newmark.put(markid, home);
                 }
-
-				if (town.hasOutpostSpawn()) {
+                // if (town.hasOutpostSpawn())
+				if (false) {
 					MarkerIcon outpostIco = defstyle.outposticon;
 					int i = 0;
 					for (Location loc : town.getAllOutpostSpawns()) {
