@@ -443,7 +443,8 @@ public class UpdateTowns implements Runnable {
 				drawHomeBlockSpawn(newWorldNameMarkerMap, townName, desc, homeBlock, townHomeBlockIcon);
 		}
 
-		if (town.hasOutpostSpawn() && Settings.getOutpostIcon() != null)
+//		if (town.hasOutpostSpawn() && Settings.getOutpostIcon() != null)
+		if (false)
 			drawOutpostIcons(town, newWorldNameMarkerMap, desc);
 	}
 
